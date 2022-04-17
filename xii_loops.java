@@ -17,7 +17,6 @@ public class xii_loops {
         }while(i<16);
     }
 }
-// 0
 // 1
 // 2
 // 3
@@ -28,8 +27,8 @@ public class xii_loops {
 // 8
 // 9
 // 10
+// 11
 // 12
 // 13
 // 14
 // 15
-// 16
