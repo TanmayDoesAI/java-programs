@@ -8,7 +8,7 @@ class test
         name=s;
     }
 }
-public class xvii_initialisationbymethodandrefernce {
+public class initialisationbymethodandrefernce {
     public static void main(String args[])
     {
         test t1= new test();
