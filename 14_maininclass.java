@@ -1,4 +1,4 @@
-class xv_maininclass{
+class maininclass{
     int id=10;
     String str="abc";
     public static void main(String args[]){
