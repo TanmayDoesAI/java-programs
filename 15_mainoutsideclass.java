@@ -3,7 +3,7 @@ class test
     int id;
     String str;
 }
-public class xvi_mainoutsideclass {
+public class mainoutsideclass {
     public static void main(String args[])
     {
         test t1=new test();
