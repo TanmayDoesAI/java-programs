@@ -18,25 +18,8 @@ public class ii_primitivedata {
         double doubleVariable1=1.0d; 
         boolean booleanVariable1=true;
         char charVariable1='a';
-        System.out.println("assigned values: ");
-        System.out.println("byte: " + byteVariable1);
-        System.out.println("short: " +shortVariable1 );
-        System.out.println("int: "+intVariable1);
-        System.out.println("long: "+longVariable1);
-        System.out.println("float: "+floatVariable1);
-        System.out.println("double: "+doubleVariable1);
-        System.out.println("boolean: "+booleanVariable1);
-        System.out.println("char: "+charVariable1);
-
-        System.out.println("default values: ");
-        System.out.println("byte: " + byteVariable2);
-        System.out.println("short: " +shortVariable2);
-        System.out.println("int: "+intVariable2);
-        System.out.println("long: "+longVariable2);
-        System.out.println("float: "+floatVariable2);
-        System.out.println("double: "+doubleVariable2);
-        System.out.println("boolean: "+booleanVariable2);
-        System.out.println("char: "+charVariable2);
+        System.out.println("assigned values: "+"\n"+"byte: " + byteVariable1+"\n"+"short: " +shortVariable1 +"\n"+"int: "+intVariable1+"\n"+"long: "+longVariable1+"\n"+"float: "+floatVariable1+"\n"+"double: "+doubleVariable1+"\n"+"boolean: "+booleanVariable1+"\n"+"char: "+charVariable1);
+        System.out.println("default values: "+"\n"+"byte: " + byteVariable2+"\n"+"short: " +shortVariable2 +"\n"+"int: "+intVariable2+"\n"+"long: "+longVariable2+"\n"+"float: "+floatVariable2+"\n"+"double: "+doubleVariable2+"\n"+"boolean: "+booleanVariable2+"\n"+"char: "+charVariable2);
     }
     
 }
