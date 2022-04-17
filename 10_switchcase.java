@@ -1,6 +1,6 @@
 //wap to demonstrate switch case
 import java.util.Scanner;
-public class xi_switchcase {
+public class switchcase {
     public static void main(String[] args)
     {
         Scanner scan= new Scanner(System.in);
