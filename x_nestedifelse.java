@@ -31,6 +31,7 @@ public class x_nestedifelse {
             {
                  System.out.println(c+" is greatest.");
             }
+        }
         else
         { 
             System.out.println(c+" is greatest.");
@@ -38,7 +39,6 @@ public class x_nestedifelse {
         scan.close();
         }
     }
-}
 
 // Enter the first number: 1
 // Enter the second number: 2
