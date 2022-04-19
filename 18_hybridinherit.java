@@ -38,10 +38,7 @@ class add extends calculator
         c=a+b;
         return c;
     }
-    public void putdata()
-    {
-        System.out.println("Sum: "+c);
-    }
+
 }
 class supadd extends add
 {
@@ -60,9 +57,5 @@ class sub extends calculator
     {
         c=a-b;
         return c;
-    }
-    public void putdata()
-    {
-        System.out.println("Sub: "+c);
     }
 }
