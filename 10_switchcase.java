@@ -12,23 +12,20 @@ public class switchcase {
         switch(c){
             case 1:
                 d=a+b;
-                System.out.println("The output is "+d);
                 break;
             case 2:
                 d=a-b;
-                System.out.println("The output is "+d);
                 break;
             case 3:
                 d=a*b;
-                System.out.println("The output is "+d);
                 break;
             case 4:
                 d=a/b;
-                System.out.println("The output is "+d);
                 break;
             default:
                 System.out.println("Invalid input try again!");
         }
+        System.out.println("The output is "+d);
         scan.close();
     }
 }
