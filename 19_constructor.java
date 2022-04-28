@@ -4,8 +4,6 @@ public class constructor
     {
         a a1=new a();
         a a2=new a(4);
-        a1.putdata();
-        a2.putdata();
     }
 }
 class a
