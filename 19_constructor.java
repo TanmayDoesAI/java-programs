@@ -18,8 +18,4 @@ class a
     {
         System.out.println("parameterised cons");
     }
-    public void putdata()
-    {
-        System.out.println("putdata()");
-    }
 }
