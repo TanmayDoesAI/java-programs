@@ -1,34 +1,24 @@
 import java.lang.String;
- class stringmethods {
+ class stringmethod {
     public static void main(String args[] ) 
     {
-        String test= "  abcvbslbf";
-        System.out.println(test.length());
-        System.out.println(test.isBlank());
-        System.out.println(test.isEmpty());
-        System.out.println(test.substring(4));
-        System.out.println(test.substring(3,5));
-        char[] chararray=test.toCharArray();
-        for(int i=0;i<chararray.length;i++)
-        {
-                System.out.println("index: "+i+": "+chararray[i]);
-        }
+        String test= "abcd";
+        System.out.println(test.length()+"\n"+test.charAt(0)+"\n"+test.concat("zyx")+"\n"+test.contains("ab")+"\n"+test.startsWith("ab")
+                           +"\n"+test.endsWith("yz")+"\n"+test.indexOf("i")+"\n"+test.isEmpty()+"\n"+test.replace("abc","def")+"\n"
+                           +test.substring(1,3)+"\n"+test.toLowerCase()+"\n"+test.toUpperCase()+"\n"+test.trim());
     }
 }
- 
-//  11
+
+// 4
+// a
+// abcdzyx
+// true
+// true
 // false
+// -1
 // false
-// cvbslbf
+// defd
 // bc
-// index: 0:  
-// index: 1:
-// index: 2: a
-// index: 3: b
-// index: 4: c
-// index: 5: v
-// index: 6: b
-// index: 7: s
-// index: 8: l
-// index: 9: b
-// index: 10: f
+// abcd
+// ABCD
+// abcd
