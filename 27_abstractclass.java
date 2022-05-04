@@ -1,3 +1,4 @@
+//wap to demonstrate abstract class and its features
 abstract class test
 {
     static int count=0;
