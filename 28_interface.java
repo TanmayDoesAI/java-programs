@@ -16,3 +16,4 @@ public class interface1 {
         obj.print1();
     } 
 }
+//interface print1
