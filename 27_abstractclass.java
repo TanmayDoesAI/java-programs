@@ -25,7 +25,7 @@ class test1 extends test
     }
     public void show2()
     {
-        System.out.println("def show2");
+        System.out.println("test1 show2");
     }
 
 }
