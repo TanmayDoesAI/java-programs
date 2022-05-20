@@ -1,3 +1,5 @@
+
+//wap to demonstrate initialisation by method and reference
 class test
 {
     int id;
