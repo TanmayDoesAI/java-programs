@@ -1,6 +1,7 @@
 // wap to demonstrate the types of variables in java
 
-public class i_variables {
+public class i_variables
+{
     static int m=100;   //static variable 
     void method() 
     {   
